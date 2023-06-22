@@ -1,0 +1,20 @@
+$color-background: #dde1dc;
+$font-primary: Serif;
+$parragraph-font-size: 50px;
+
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$white: #fffffc;
+$black: #222;
+
+$font-title: "Alegreya", serif;
+
+$card-text-color: #4a4a4a;
+$metadata-color-1: #67b54b;
+$metadata-color-2: #979797;
+$card-title-color: #4a4a4a;
+
+%base-title {
+    font-family: $font-title;
+    color: $dark-green-text;
+}

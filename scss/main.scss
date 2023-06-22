@@ -1,0 +1,81 @@
+@use 'global' as *;
+
+.blog {
+    background-color: $white;
+    max-width: unset;
+    padding: 5% 10%;
+
+    .title {
+        @extend %base-title;
+    }
+
+    .card-title {
+        font-size: 24px;
+        color: $card-title-color;
+    }
+
+    .metadata {
+        :nth-child(1) {
+            color: $metadata-color-1;
+        }
+        :nth-child(2) {
+            color: $metadata-color-2;
+        }
+    }
+
+    .card-text {
+        color: $card-text-color;
+        font-size: 18px;
+        line-height: 1.5em;
+        min-height: 6em;
+    }
+
+    .author {
+        img {
+            border-radius: 100%;
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .process-list {
+        margin-top: 40px;
+        margin-bottom: 36px;
+
+        .process {
+            margin-bottom: 25px;
+
+            & > .process-description {
+                & > h3 {
+                    color: $dark-green-title;
+                    margin-bottom: 0;
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+                & > p {
+                    color: $dark-green-text;
+                    margin: 0;
+                }
+            }
+
+            .process-icon {
+                width: 60px;
+                height: 60px;
+                margin-right: 10px;
+                text-align: center;
+        
+                img {
+                  height: 100%;
+                }
+            }
+        }
+    }
+    button {
+        height: auto;
+        border: none;
+        border-radius: 8px;
+        padding: 12px;
+        width: 180px;
+        margin-bottom: 15px;
+    }
+}
