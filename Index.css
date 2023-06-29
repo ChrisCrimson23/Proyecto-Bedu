@@ -4,7 +4,9 @@
 }
 
 body {
-  background-color: #fffbf7;
+  background-color: #fffbf7 !important;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -484,5 +486,26 @@ li {
   .actions,
   .navbar {
     text-align: center;
+  }
+}
+
+.button-hover {
+  transition: background-color 500ms ease;
+}
+.button-hover:hover{
+  background-color: blue;
+}
+.button-animated-hover {
+  animation-name: buttonanimated-hover;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+}
+@keyframes button-animated-hover{
+  0% { 
+  from {background-color: red;}
+  to {background-color: yellow;}
+  }
+  50% {
+    transform: translate();
   }
 }
