@@ -144,17 +144,23 @@ font-weight: 600;
 text-decoration: none;
 text-align: center;
 }
+
 .Opiniones_de_clientes {
 background-color: #cce9f1;
 padding: 5% 15%;
 display: flex;
 align-items: center;
 justify-content: space-around;
+flex-direction: column;
+padding-left: 0%;
+padding-right: 0%;
+padding-top: 0%;
+padding-bottom: 0%;
 }
 
 .Opiniones_de_clientes .Reseñas {
 flex: 2;
-padding-right: 100px;
+padding: 30px 20px 40px 40px;
 }
 
 .Opiniones_de_clientes .Reseñas h2 {
@@ -226,6 +232,7 @@ font-size: 25px;
 font-weight: 400;
 line-height: 30px;
 margin-bottom: 20px;
+width: auto;
 }
 
 .Opiniones_de_clientes .card .card-body .results {
@@ -241,16 +248,17 @@ margin-right: 20px;
 
 .Opiniones_de_clientes .card .card-body .results p {
 margin: 0;
+width: auto;
 }
 
 .Opiniones_de_clientes .card .card-footer button {
 display: block;
 margin-top: 5%;
 margin-left: 0;
+margin-bottom: 5%;
 border-radius: 5px;
 font-size: 13;
 font-weight: 600;
-padding: 12px 20px;
 width: 100%;
 background-color: #2f31b3;
 color: #fff;
@@ -261,6 +269,10 @@ border: none;
 background-color: #ffffff;
 color: #fff;
 border: none;
+font-size: 16px;
+font-weight: 600;
+text-decoration: none;
+text-align: center;
 }
 
 /* Aqui hacemos un círculo con CSS! Este se posicionará en el margen superior de .card-body */
@@ -597,11 +609,4 @@ background-color: blue;
 animation-name: buttonanimated-hover;
 animation-duration: 5s;
 animation-timing-function: ease;
-}
-
-@keyframes 
-
-.nav-item:hover {
-  from {background-color: red;}
-  to {background-color: yellow;}
 }
