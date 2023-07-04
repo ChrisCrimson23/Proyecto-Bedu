@@ -195,7 +195,7 @@ max-width: 100%;
 color: #025157;
 }
 
-/* Cambiamos el alto mínimo de la tarjeta, para que se vea bien en responsive */
+
 .Opiniones_de_clientes .card {
 max-width: 500px;
 width: 100%;
@@ -203,13 +203,13 @@ min-height: 600px;
 margin: 0 auto;
 }
 
-/* Con object-fit, hacemos que la imagen se ajuste a la medida de su contenedor y limitamos su alto */
+
 .Opiniones_de_clientes .card img {
 max-height: 30vh;
 object-fit: cover;
 }
 
-/* Agregamos position: relative para recibir un elemento con position:absolute más adelante */
+
 .Opiniones_de_clientes .card .card-body {
 max-width: 370px;
 width: 100%;
@@ -217,7 +217,7 @@ position: relative;
 padding: 40px 1rem 1rem;
 }
 
-/* Estos son los estilos para textos y acomodo de elementos */
+
 .Opiniones_de_clientes .card .card-body h5 {
 color: #2f31b3;
 font-size: 30px;
@@ -275,7 +275,7 @@ text-decoration: none;
 text-align: center;
 }
 
-/* Aqui hacemos un círculo con CSS! Este se posicionará en el margen superior de .card-body */
+
 .Opiniones_de_clientes .card .card-body .card-circle {
 display: flex;
 align-items: center;
@@ -288,13 +288,13 @@ border-radius: 50%;
 padding: 5px;
 }
 
-/* Cada círculo tiene su propio color. Verifica qué significa este selector: .card-circle.everly */
+
 .Opiniones_de_clientes .card .card-body .card-circle.everly {
 background-color: #f9da73;
 border: 5px solid #f9da73;
 }
 
-/* Los círculos deben recibir la imagen y ajustarla al tamaño */
+
 .Opiniones_de_clientes .card .card-body .card-circle.everly img {
 object-fit: contain;
 width: 100%;
@@ -318,11 +318,15 @@ width: 100%;
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232f31b3' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  position: absolute;
+  top: 500px;
 }
 
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232f31b3' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    position: absolute;
+    top: 500px;
 }
 
 .carousel-indicators li {
