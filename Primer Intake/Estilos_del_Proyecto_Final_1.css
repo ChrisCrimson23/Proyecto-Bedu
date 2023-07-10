@@ -408,6 +408,7 @@ h1 {
   display: block
 }
 }
+
 @media (max-width: 920px) {
 #main-container{
   width: 100%;
@@ -559,58 +560,4 @@ h1 {
 .Description > figure {
   display: block
 }
-}
-
-@media (max-width: 991px) {
-.success-stories {
-  flex-direction: column;
-  padding: 5%;
-}
-.actions,
-.navbar {
-  text-align: center;
-}
-}
-
-.navbar-toggler-icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  background-image: var(--bs-navbar-toggler-icon-bg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-}
-
-.navbar-nav {
-display: flex;
-}
-
-.nav-item {
-  text-transform: uppercase;
-}
-
-.nav-link {
-  border-radius: 5px;
-}
-
-.nav-link:hover {
-background-color: #2ca3c7;
-transition: 1s;
-border-color: #ffffff;
-border-width: 3px;
-border-style: solid;
-}
-
-.button-hover {
-transition: background-color 500ms ease;
-}
-.button-hover:hover{
-background-color: blue;
-}
-.button-animated-hover {
-animation-name: buttonanimated-hover;
-animation-duration: 5s;
-animation-timing-function: ease;
 }
